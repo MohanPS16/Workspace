@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;C2_WebdriverTest/src/test/java/c1_xpathCssTest/A6_XpathTest&apos; to &apos;K6_XpathTest&apos;" description="Rename resource &apos;A6_XpathTest&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/test/java/c1_xpathCssTest/A6_XpathTest" name="K6_XpathTest" stamp="1672806844077" updateReferences="true"/>
+</session>

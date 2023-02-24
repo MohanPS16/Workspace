@@ -1,0 +1,66 @@
+CSS
+
+id			-		#
+class		-		.
+contains	-		
+starts-with	-		$
+ends-with	-		^
+
+--------------------------------------------------------------------------------------------------
+css id syntax		-	#idname
+css id example		-	#health
+
+css class syntax 	-	.class.class.class
+css class example      - .overflow_item.has_sub
+--------------------------------------------------------------------------------------------------
+xpath basic syntax		-	.//tagname[@attribute='value']
+Css basic syntax		-	tagname[attribute=value]
+css basic example		-	input[id='sb_form_q']
+
+Contains(*),starts-with(^),ends-with($)
+
+css contains syntax		-	tagname[attribute*=value]
+css contains example	-	input[id*='sb_form_']
+
+css starts-with synatx	-	tagname[attribute^=value]
+css starts-with example	-	input[id^='sb_']
+
+
+css ends-with syntax	-	tagname[attribute$=value]
+css ends-with example	-	input[id$='form_q']
+
+-------------------------------------------------------------------------------------------
+AND - [true][false], OR  -  [true],[false]
+
+Css and syntax			-	tagname[attribute=value][attribute=value]
+css and example			-	input[name='q'][id='sb_form_q']
+
+css or syntax			-	tagname[attribute=value],[attribute=value]
+css or example			-	input[name='q'],[id='sb_form_q']
+
+------------------------------------------------------------------------------------------
+chained locator	
+css chained syntax		-	tagname[attribiute=value]>[attribute=value]
+css chained example		-	div[class="overflow_container"]>div[class="submenu"]
+
+-----------------------------------------------------------------------------------------------
+first-of-type, last-of-type, nth-of-type, nth-child(index)
+
+
+css first-of-type syntax    - tagname[attribute=value]>li:first-of-type
+css first-of-type exmaple    - div[class='submenu']>ul[class='overflow_menu']>li:first-of-type
+
+css last-of-type syntax    - tagname[attribute=value]>last-of-type
+css last-of-type exmaple    - div[class='submenu']>ul[class='overflow_menu']>li:last-of-type
+
+css nth-of-type syntax    - tagname[attribute=value]>li:nth-of-type(index)
+css nth-of-type exmaple    - div[class='submenu']>ul[class='overflow_menu']>li:nth-of-type(3)
+
+css nth-child syntax    - tagname[attribute=value]>li:nth-child(index)
+css nth-child exmaple    - div[class='submenu']>ul[class='overflow_menu']>li:nth-child(3)
+
+---------------------------------------------------------------------------------------------------------
+css amazon 	-	div[class="_cDEzb_p13n-sc-css-line-clamp-1_1Fn1y"]
+
+span[class="a-size-small a-color-secondary a-text-normal"]
+span[text*='a-size-small a-color-secondary a-text-normal']

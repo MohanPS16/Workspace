@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="10" time="0.721">
+<testcase classname="Validate amazon app" name="validate app with valid login" time="0.102">
+<system-out><![CDATA[Given login with valid data.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate amazon app" name="validate app with invalid login" time="0.003">
+<system-out><![CDATA[Given login with invalid data...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate amazon app" name="validate app with guest user login" time="0.003">
+<system-out><![CDATA[Given login with guest data.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate amazon app" name="validate app with admin user login" time="0.001">
+<system-out><![CDATA[Given login with admin data.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate amazon app" name="validate app with valid payment" time="0.002">
+<system-out><![CDATA[Given payment with valid data...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate amazon app" name="validate app with invalid payment" time="0.002">
+<system-out><![CDATA[Given payment with invalid data.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate amazon app" name="validate app with guest payment" time="0">
+<system-out><![CDATA[Given payment with guest data...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate amazon app" name="search app with mobile" time="0.007">
+<system-out><![CDATA[Given search app with mobile................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate amazon app" name="search app with laptop" time="0.005">
+<system-out><![CDATA[Given search app with laptop................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate amazon app" name="search app with hearphone" time="0.002">
+<system-out><![CDATA[Given search app with hearphone.............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

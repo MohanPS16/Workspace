@@ -1,0 +1,145 @@
+Xpath types
+Absolute path	-	/html/body/div/div/div/input[1]
+Relative path	-	.//input[@id='sample id']	- //deep search
+
+Xpath syntax	-	.//tagname[@attribute='value']
+
+Example syntax  - .//input[@name='q']        -  (.//input[@name='q'])
+Example syntax  - .//input[@id='sb_form_q']  -  (.//input[@name='sb_form_q'])
+
+-------------------------------------------------------------------------------------------------
+//contains, starts-with,ends-with
+
+Xpath syntax 	-	.//tagname[contains(@attribute,'value')]
+Example         -  .//input[contains(@id,'sb_form_')]
+
+Xpath syntax    -  (.//tagname[contains(@attribute,'value')])[index]
+Example         -  (.//input[contains(@id,'sb_form_')])[1]
+Example         -  (.//input[contains(@id,'_form_')])[1]	-	true
+Example         -  (.//input[contains(@id,'sb_form_')])[1]	-	false
+
+Xpath syntax      -  .//tagname[starts-with(@attribute,'value')]
+Example           -  .//input[starts-with(@id,'sb_form_')]
+
+Xpath syntax      -  (.//tagname[starts-with(@attribute,'value')])[index]
+Example           -  (.//input[starts-with(@id,'sb_form_')])[1]   - true
+Example           -  (.//input[starts-with(@id,'_form_')])[1]     - false
+Example           -  (.//input[starts-with(@id,'s_form_')])[1]    - false
+
+Xpath syntax      -  .//tagname[ends-with(@attribute,'value')]
+Example           -  .//input[ends-with(@id,'sb_form_')]
+
+Xpath syntax      -  (.//tagname[ends-with(@attribute,'value')])[index]
+Example           -  (.//input[ends-with(@id,'sb_form_')])[1]   - false
+Example           -  (.//input[ends-with(@id,'_form_')])[1]     - false
+Example           -  (.//input[ends-with(@id,'s_form_')])[1]    - false
+Example           -  (.//input[ends-with(@id,'_form_q')])       - true
+
+------------------------------------------------------------------------------------------------
+text()
+
+Xpath syntax      -  .//tagname[text()='my text']
+
+Example           -  .//span[text()='Languages:']
+Example           -  .//a[text()='Images']
+
+-------------------------------------------------------------------------------------------
+
+Xpath syntax      -  .//tagname[contains(text(),'my text')]
+Example           -  .//span[text()='Languages:']
+Example           -  .//a[text()='Images']
+
+
+Xpath syntax      -  .//tagname[starts-with(text(),'my text')]
+Example           -  .//span[text()='Languages:']
+Example           -  .//a[text()='Images']
+
+
+Xpath syntax      -  .//tagname[ends-with(text(),'my text')]
+Example           -  .//span[text()='Languages:']
+Example           -  .//a[text()='Images']
+
+-------------------------------------------------------------------------------------------------------
+Xpath syntax	  -  .//tagname[text()='sample text:']/following::a
+xpath example 	  -	 .//span[text()='Languages:']/following::a
+
+xpath syntax	  -	 (.//tagname[text()='sample text:']/following::a)[index]
+xpath example	  -  (.//span[text()='Languages:']/following::a)[1]
+
+************preceding************
+Xpath syntax      -  .//tagname[text()='sample text:']/preceding::tagname
+
+Xpath example     -  .//span[text()='Languages:']/preceding::a
+
+Xpath syntax      -  .//tagname[text()='sample text:']/preceding::tagname[index]
+Xpath example     -  .//span[text()='Languages:']/preceding::a[1]
+
+Xpath syntax      -  (.//tagname[text()='sample text:']/preceding::tagname)[index]
+Xpath example     -  (.//span[text()='Languages:']
+
+----------------------------------------------------------------------------------------------------
+************ancestor****************
+
+xapth syntax	  -  .//tagname[@attribute='value:']/ancestor::div
+xpath exapmle	  -  .//input[@id='sb_form_q']/ancestor::div
+
+xpath syntax	  -	 .//tagname[@attribute='value:']/ancestor::tagname[index]
+xapth example	  -  .//input[@id='sb_form_q:']/ancestor::div[1]
+
+xpath syntax		-	(.//tagname[@attribute='value:']/ancestor::tagname)[index]
+xpath example		-	(.//input[@id='sb_form_q:']/ancestor::div)[1]
+
+***********descendant************
+xapth syntax	  -  .//tagname[@attribute='value:']/descendant::div
+xpath exapmle	  -  .//ul[@class="scopes "]/descendant::div
+
+xpath syntax	  -	 .//tagname[@attribute='value:']/descendant::tagname[index]
+xapth example	  -  .//ul[@class="scopes "]/descendant::div[1]
+
+xpath syntax		-	(.//tagname[@attribute='value:']/descendant::tagname)[index]
+xpath example		-	(.//ul[@class="scopes "]/descendant::div)[1]
+
+----------------------------------------------------------------------------------------------
+***********AND or OR *******************
+
+xpath synatx 	-	.//tagname[@attribute='value:' and @attribute='value:']
+
+xpath example	-	.//input[@name='q' and @id='sb_form_q']	- 	true
+xpath example	-	.//input[@name='q' and @id='sb_form_']	-	false
+xpath example	-	.//input[@name='a' and @id='sb_form_q']	-	false
+xpath example	-	.//input[@name='a' and @id='sb_form_']	-	false
+
+
+
+xpath example	-	.//input[@name='q' or @id='sb_form_q']	- 	true
+xpath example	-	.//input[@name='q' or @id='sb_form_']	-	true
+xpath example	-	.//input[@name='a' or @id='sb_form_q']	-	true
+xpath example	-	.//input[@name='a' or @id='sb_form_']	-	false
+
+--------------------------------------------------------------------------------------------------------
+*******chained locator
+Xapth syntax      -  .//tagname[@attribute='value']/tagname[@attribute='value']/tagname[@attribute='value']
+Xapth example     -  .//div[@class='overflow_container']/div[@class="submenu"]/ul[@class='overflow_menu']
+
+-------------------------------------------------------------------------------------------------------------------
+********first-of-type, last-of-type, nth-of-type
+
+Xpath syntax      -  .//tagname[@attribute='value:']/tagname::first-of-type
+Xpath syntax      -  .//div[@class="submenu"]/ul[@class='overflow_menu']/tagname::first-of-type
+
+
+Xpath syntax      -  .//tagname[@attribute='value:']/tagname:last-of-type
+Xpath syntax      -  .//div[@class="submenu"]/ul[@class='overflow_menu']/tagname::last-of-type
+
+
+Xpath syntax      -  .//tagname[@attribute='value:']/tagname:nth-of-type(index)
+Xpath syntax      -  .//div[@class="submenu"]/ul[@class='overflow_menu']/tagname::nth-of-type(3)
+
+
+********nth-child
+Xpath syntax      -  .//tagname[@attribute='value:']/tagname:nth-child(index)
+Xpath syntax      -  .//div[@class="submenu"]/ul[@class='overflow_menu']/tagname::nth-child(3)
+
+
+
+

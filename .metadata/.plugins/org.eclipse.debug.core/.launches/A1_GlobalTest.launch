@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/B1_VariablesTest/src/a2_globalVariable/A1_GlobalTest.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="a2_globalVariable.A1_GlobalTest"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="B1_VariablesTest"/>
+</launchConfiguration>

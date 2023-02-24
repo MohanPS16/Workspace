@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;testCases&apos; to &apos;H1_CucumberReport/src/test/java&apos;&#x0D;&#x0A;- Original project: &apos;G8_CucumberTags&apos;&#x0D;&#x0A;- Destination element: &apos;H1_CucumberReport/src/test/java&apos;&#x0D;&#x0A;- Original element: &apos;G8_CucumberTags/src/test/java/testCases&apos;" description="Copy package" destination="=H1_CucumberReport/src\/test\/java" element1="/src\/test\/java&lt;testCases" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1673242259469" version="1.0"/>
+</session>

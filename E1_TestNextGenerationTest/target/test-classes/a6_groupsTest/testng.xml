@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+	<groups>
+	<run>
+	<include name="PAYMENT"></include>
+	</run>
+	</groups>
+    <classes>
+      <class name="a6_groupsTest.A1_GroupsTest"/>
+    </classes>
+  </test> <!-- Test -->
+
+  <test thread-count="5" name="Test1">
+	<groups>
+	<run>
+	<include name="SEARCH"></include>
+	</run>
+	</groups>
+    <classes>
+      <class name="a6_groupsTest.A1_GroupsTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test thread-count="5" name="Test2">
+	<groups>
+	<run>
+	<include name="CANCEL"></include>
+	</run>
+	</groups>
+    <classes>
+      <class name="a6_groupsTest.A1_GroupsTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test thread-count="5" name="Test3">
+	<groups>
+	<run>
+	<include name="TRACK"></include>
+	</run>
+	</groups>
+    <classes>
+      <class name="a6_groupsTest.A1_GroupsTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  </suite> <!-- Suite -->

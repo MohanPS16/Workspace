@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;Collections&apos;&#x0D;&#x0A;- Original project: &apos;Collections&apos;&#x0D;&#x0A;- Original element: &apos;a2_setTest.a3_linkedList.java&apos;" description="Delete element" element1="/src&lt;a2_setTest{a3_linkedList.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1667536301915" subPackages="false" version="1.0"/>
+</session>

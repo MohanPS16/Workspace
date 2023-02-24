@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Login Test Cases">
+  <parameter name="BROWSER" value="firefox"></parameter>
+  <parameter name="URL" value="http://djangovinoth.pythonanywhere.com/login/"></parameter>
+  <parameter name="USERNAME" value="Raghul.ps"></parameter>
+  <parameter name="PASSWORD" value="shanthip02"></parameter>
+    <classes>
+      <class name="a7_parametersTest.A1_ParametersTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->

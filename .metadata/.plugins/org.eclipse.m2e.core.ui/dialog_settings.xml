@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="com.vcentry"/>
+			<item value="Ps"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="Z3_CucumberProject"/>
+			<item value="Z1_ProjectHRM"/>
+			<item value="K1_DDDTest"/>
+			<item value="J1_GitHubTest"/>
+			<item value="H3_BrowserStack"/>
+			<item value="H2_CucumberResult"/>
+			<item value="H1_CucumberReport"/>
+			<item value="G9_CucumberKeywords"/>
+			<item value="G8_CucumberTags"/>
+			<item value="G7_CucumberHooks"/>
+			<item value="G6_CucumberPageObject"/>
+			<item value="G5_Cucumber"/>
+			<item value="G4_CucumberWebdriverTest"/>
+			<item value="G3_CucumberScenarioOutline"/>
+			<item value="G2_CucumberScenarioTest"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\Rohini\Desktop\Workspace\batch251\Z2_PracticePro"/>
+			<item value="C:\Users\Rohini\Desktop\Workspace\batch251\K1_DDDTest"/>
+			<item value="C:\Users\Rohini\Desktop\Workspace\batch251\J1_GitHubTest"/>
+			<item value="C:\Users\Rohini\Desktop\Workspace\batch251\H2_CucumberResult"/>
+			<item value="C:\Users\Rohini\Desktop\Workspace\batch251\H1_CucumberReport"/>
+			<item value="C:\Users\Rohini\Desktop\Workspace\batch251\G9_CucumberKeywords"/>
+			<item value="C:\Users\Rohini\Desktop\Workspace\batch251\G8_CucumberTags"/>
+			<item value="C:\Users\Rohini\Desktop\Workspace\batch251\G7_CucumberHooks"/>
+			<item value="C:\Users\Rohini\Desktop\Workspace\batch251\G6_CucumberPageObject"/>
+			<item value="C:\Users\Rohini\Desktop\Workspace\batch251\G5_Cucumber"/>
+			<item value="C:\Users\Rohini\Desktop\Workspace\batch251\G4_CucumberWebdriverTest"/>
+			<item value="C:\Users\Rohini\Desktop\Workspace\batch251\G3_CucumberScenarioOutline"/>
+			<item value="C:\Users\Rohini\Desktop\Workspace\batch251\G2_CucumberScenarioTest"/>
+			<item value="C:\Users\Rohini\Desktop\Workspace\batch251\G1_Cucumber"/>
+			<item value="C:\Users\Rohini\Desktop\Workspace\batch251\F1_AutoItTest"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>
